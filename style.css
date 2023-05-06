@@ -1,0 +1,126 @@
+* {
+    font-family: "Audiowide", sans-serif;
+    box-sizing: border-box;
+    line-height: 26px;
+    line-height: 1.625rem;
+    margin: 0px 0px 26px;
+    margin: 0rem 0rem 1.625rem;
+}
+.header {
+    height: 80px;
+    background-color: #535353;
+    padding-left: 50px;
+    margin-bottom: 0%;
+}
+.header h1 {
+    font-size: 50;
+}
+.header iframe {
+    margin-top: 28px;
+    margin-left: 20px;
+}
+.navbar {
+    height: auto;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #535353;
+}
+.navbar a {
+    margin : 0;
+    color: whitesmoke;
+    background-color: #535353;
+    font-size: 30;
+    text-decoration: none;
+    padding:5px;
+}
+.navbar a:hover {
+    color:#535353;
+    background-color: white;
+    border-radius: 5px;
+}
+.col {
+    --bs-gutter-x:0;
+    --bs-gutter-y:0;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1600px;
+}
+.home {
+    display: grid;
+    grid-column-gap: 2rem;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+}
+.home h2 , h1 {
+    padding: 5px;
+    text-align: center;
+    background-color: #535353;
+    color: whitesmoke;
+}
+.home p {
+    font-weight: 600;
+    text-align: center;
+}
+.box {
+    border: 1px solid #999;
+    border-radius: 10px;
+    padding: 1rem;
+    position: relative;
+    
+}
+.box1 {
+    grid-column: 1 / span 3;
+}
+.box2 {
+    grid-column: auto / span 2;
+}
+.box3 {
+    grid-column: 1 / -1;
+}
+.box4 {
+    grid-column: auto / span 2;
+}
+.box5 {
+    grid-column: auto / span 3;
+}
+.box6 {
+    grid-column: auto / span 3;
+}
+.box7 {
+    grid-column: auto / span 2;
+}
+.box8 {
+    grid-column: auto / span 2;
+}
+.box9 {
+    grid-column: auto / span 1;
+}
+.box10 {
+    grid-column: auto / span 2;
+}
+.box11 {
+    grid-column: 1 / -1;
+}
+.footer {
+    text-align: center;
+    font-size: larger;
+}
+.footer li {
+    list-style-type: none;
+}
+.footer a {
+    text-decoration: none;
+}
+
